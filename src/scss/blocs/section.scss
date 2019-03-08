@@ -1,0 +1,19 @@
+.section {
+	background-color: $background-dark-secondary;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.section--light{
+	background-color: $background-dark-primary;
+}
+.section__title
+{
+	text-align: center;
+	color: $title-primary;
+	font-size: 20px;
+	margin-top: 10px;
+	font-family: 'Cinzel';
+}
