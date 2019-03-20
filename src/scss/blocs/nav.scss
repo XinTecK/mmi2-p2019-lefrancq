@@ -1,0 +1,17 @@
+.nav {
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	border-bottom: 1px solid black;
+}
+
+.nav__link {
+	font-family: "theboldfont";
+	color: black;
+	font-size: 0.8em;
+	margin-right: 15px;
+	text-decoration: none;
+	margin-top: 5px;
+}

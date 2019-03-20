@@ -1,11 +1,13 @@
 .header {
-	background: green;
-	nav {
-	  display: flex;
-	  justify-content: center;
-	  img {
-		height: 50px;
-		width: auto;
-	  }
-	}
-  }
+	min-height: 30vh;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header__img {
+	width: 90vw;
+	margin-left: auto;
+	margin-right: auto;
+}

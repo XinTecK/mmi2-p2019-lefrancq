@@ -1,10 +1,6 @@
 .section {
 	background-color: $background-dark-secondary;
 	height: 50vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 .section--light{
 	background-color: $background-dark-primary;
