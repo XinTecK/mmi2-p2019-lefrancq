@@ -1,11 +1,10 @@
-.section {
+.productDescriptionSection {
 	/* background-color: $background-dark-secondary; */
-	padding-top: 25px;
+	padding: 25px 0px;
+
 }
-.section--light{
-	/* background-color: $background-dark-primary; */
-}
-.section__title
+
+.productDescriptionSection__title
 {
 	text-align: center;
 	color: $text-primary;
@@ -14,4 +13,9 @@
 	padding: 0px 10px;
 	font-family: 'Raleway', sans-serif;
 	margin-bottom: 20px;
+}
+
+.productDescriptionSection__waterTransition {
+	width : 100%;
+	border : 0px;
 }
