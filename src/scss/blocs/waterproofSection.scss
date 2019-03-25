@@ -1,6 +1,9 @@
 .waterproofSection {
-	padding-top: 0px;
-	margin-top: -30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 15px;
+	margin-top: -1px;
 	background-color: #44C7F4;
 }
 
@@ -20,4 +23,6 @@
 	padding: 0px 25px;
 	text-align: justify;
 	padding-bottom: 20px;
+	width: 70%;
+	line-height: 1.2;
 }
