@@ -1,6 +1,23 @@
 .waterproofSection {
 	padding-top: 0px;
-	margin-top: 0px;
-	height: 250px;
+	margin-top: -30px;
 	background-color: #44C7F4;
+}
+
+.waterproofSection__catchingPhrase {
+	color: white;
+	text-align: center;
+	font-size: 33px;
+	font-weight: 900;
+	padding: 0px 10px;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 40px;
+}
+
+.waterproofSection__description {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	padding: 0px 25px;
+	text-align: justify;
+	padding-bottom: 20px;
 }
