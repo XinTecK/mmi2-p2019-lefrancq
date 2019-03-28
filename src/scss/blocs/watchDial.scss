@@ -1,0 +1,53 @@
+.watchDial {
+	position: relative;
+	height: 150px;
+	width: 150px;
+	border: 5px solid white;
+	border-radius: 50%;
+  }
+  
+  .watchDial__longPointer {
+	position: absolute;
+	width: 42%;
+	border: 2px solid white;
+	left: calc(50% - 1px);
+	top: calc(50% - 1px);
+	transform-origin: top left;
+	transform: rotate(-90deg);
+	animation-duration: 10s;
+	animation-name: watchLongPointerRotation;
+  }
+  
+  .watchDial__shortPointer {
+	position: absolute;
+	width: 30%;
+	border: 2px solid white;
+	left: calc(50% - 1px);
+	top: calc(50% - 1px);
+	transform-origin: top left;
+	transform: rotate(-90deg);
+	animation-duration: 10s;
+	animation-name: watchShortPointerRotation;
+  }
+  
+  .watchDial__centerCircle {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	top: calc(50% - 7.5px);
+	left: calc(50% - 7.5px);
+  }
+  
+  @keyframes watchLongPointerRotation {
+	to {
+	  transform: rotate(4230deg); 
+	}
+  }
+  
+  @keyframes watchShortPointerRotation {
+	to {
+	  transform: rotate(270deg); 
+	}
+  }

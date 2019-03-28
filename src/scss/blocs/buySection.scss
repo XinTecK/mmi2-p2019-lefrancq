@@ -1,0 +1,37 @@
+.buySection {
+	padding-top: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(36, 170, 214);
+}
+
+.buySection__catchingPhrase {
+	color: white;
+	text-align: center;
+	font-size: 33px;
+	font-weight: 900;
+	font-style: italic;
+	padding: 0px 10px;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 30px;
+}
+
+.buySection__watchDial {
+	margin-bottom: 30px;
+}
+
+.buySection__buyButton {
+	cursor: pointer;
+	height: 60px;
+	width: 200px;
+	border-radius: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: #44C7F4;
+	color: white;
+	border: 0px;
+	margin-bottom: 25px;
+}
