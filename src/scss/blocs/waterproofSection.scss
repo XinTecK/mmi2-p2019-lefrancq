@@ -8,11 +8,13 @@
 }
 
 .waterproofSection__swimmerIcon {
+	opacity: 0;
 	width: 150px;
 	fill: white;
 }
 
 .waterproofSection__catchingPhrase {
+	opacity: 0;
 	color: white;
 	text-align: center;
 	font-size: 33px;
@@ -23,15 +25,17 @@
 }
 
 .waterproofSection__watchPicture {
+	opacity: 0;
 	width: 60%;
 	max-width: 250px;
 	height: auto;
 	margin-bottom: 50px;
-	border-left: 1px solid white;
-	border-right: 1px solid white;
+	border-left: 1px solid rgba(255,255,255,0.5);
+	border-right: 1px solid rgba(255,255,255,0.5);
 }
 
 .waterproofSection__description {
+	opacity: 0;
 	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;

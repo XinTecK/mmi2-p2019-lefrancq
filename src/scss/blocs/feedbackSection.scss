@@ -18,9 +18,10 @@
 }
 
 .feedbackSection__feedbackContainer {
+	opacity: 0;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 	margin-bottom: 40px;
 	@include medium {
 		width: 75%;
@@ -32,18 +33,27 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-right: 25px;
+	margin-right: 45px;
 }
 
 .feedbackSection__profilPicture {
-	margin-bottom: 10px
+	width: auto;
+	height: 80px;
+	margin-bottom: 10px;
+	border: 3px solid rgb(55, 173, 213);
+	border-radius: 10px;
 }
 
 .feedbackSection__profilName {
 	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
 }
 
 .feedbackSection__feedback {
+	padding-bottom: 15px;
 	max-width: 60%;
 	font-family: 'Raleway', sans-serif;
+	@include medium {
+		padding-bottom: 25px;
+	}
 }

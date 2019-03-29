@@ -8,6 +8,7 @@
 
 .watch__container
 {
+	opacity: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -32,6 +33,7 @@
 }
 
 .watch__rate {
+	opacity: 0;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -52,6 +54,7 @@
 }
 
 .watch__description {
+	opacity: 0;
 	color: $text-primary;
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
