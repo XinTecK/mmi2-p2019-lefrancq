@@ -1,0 +1,49 @@
+.feedbackSection {
+	padding:40px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.feedbackSection__catchingPhrase {
+	text-align: center;
+	font-size: 33px;
+	font-weight: 900;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 80px;
+}
+
+.feedbackSection__catchingPhrase--blue {
+	color: #44C7F4;
+}
+
+.feedbackSection__feedbackContainer {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-bottom: 40px;
+	@include medium {
+		width: 65%;
+	}
+	// width: 65%;
+}
+
+.feedbackSection__figure {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 25px;
+}
+
+.feedbackSection__profilPicture {
+	margin-bottom: 10px
+}
+
+.feedbackSection__profilName {
+	font-family: 'Raleway', sans-serif;
+}
+
+.feedbackSection__feedback {
+	max-width: 60%;
+	font-family: 'Raleway', sans-serif;
+}

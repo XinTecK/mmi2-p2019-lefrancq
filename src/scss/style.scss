@@ -4,6 +4,7 @@
 /* Config */
 @import 'config/colors.scss';
 @import 'config/fonts.scss';
+@import 'config/mixin.scss';
 /* Global */
 
 /* Blocs */
@@ -12,5 +13,6 @@
 @import 'blocs/watch.scss';
 @import 'blocs/waterTransition.scss';
 @import 'blocs/waterproofSection.scss';
+@import 'blocs/feedbackSection.scss';
 @import 'blocs/buySection.scss';
 @import 'blocs/watchDial.scss';
