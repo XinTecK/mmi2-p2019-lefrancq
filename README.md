@@ -1,5 +1,5 @@
 # A fake product site realized for a school project.
-I decided to promote a watch from a famous french watch brand.
+I decided to promote a watch from a famous french watch brand (Pierre Lannier).
 ## This project is done with :
   - **HTML**
   - **JS (ES6)**
