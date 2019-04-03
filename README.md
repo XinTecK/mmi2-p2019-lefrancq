@@ -1,19 +1,10 @@
-# Parcel boilerplate
+# A fake product site realized for a school project.
+I decided to promote a watch from a famous french watch brand.
+## This project is done with :
+  - **HTML**
+  - **JS (ES6)**
+  - **SASS (BEM Naming Convention)**
+  - **npm**
+  - **Mobile-first (responsive from 320px)**
 
-Minimal boilerplate for parcel powered project
-
-## How to use
-
-Clone and cd into the repository and run `npm install`
-
-### Development mode
-
-```npm run dev```
-
-Open `localhost:1234`
-
-### Production mode
-
-```npm run build```
-
-Serve the `dist` folder.
+You can visit the current website at https://montre-pierre-lannier.netlify.com
